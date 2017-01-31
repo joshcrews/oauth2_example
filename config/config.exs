@@ -7,8 +7,7 @@ use Mix.Config
 
 # Configures the namespace used by Phoenix generators
 config :oauth2_example,
-  app_namespace: OAuth2Example,
-  ecto_repos: [OAuth2Example.Repo]
+  app_namespace: OAuth2Example
 
 # Configures the endpoint
 config :oauth2_example, OAuth2Example.Endpoint,

@@ -9,8 +9,6 @@ defmodule OAuth2Example do
     children = [
       # Start the endpoint when the application starts
       supervisor(OAuth2Example.Endpoint, []),
-      # Start the Ecto repository
-      worker(OAuth2Example.Repo, []),
       # Here you could define other workers and supervisors as children
       # worker(OAuth2Example.Worker, [arg1, arg2, arg3]),
     ]

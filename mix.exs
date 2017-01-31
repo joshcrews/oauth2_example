@@ -18,8 +18,7 @@ defmodule OAuth2Example.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {OAuth2Example, []},
-     applications: [:phoenix, :phoenix_html, :cowboy, :logger,
-                    :phoenix_ecto, :postgrex, :oauth2]]
+     applications: [:phoenix, :phoenix_html, :cowboy, :logger, :oauth2]]
   end
 
   # Specifies which paths to compile per environment
@@ -37,8 +36,6 @@ defmodule OAuth2Example.Mixfile do
   defp deps do
     [{:phoenix, "~> 1.2.1"},
      {:phoenix_pubsub, "~> 1.0"},
-     {:phoenix_ecto, "~> 3.0"},
-     {:postgrex, ">= 0.0.0"},
      {:phoenix_html, "~> 2.6"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},

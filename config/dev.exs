@@ -33,14 +33,6 @@ config :logger, :console, format: "[$level] $message\n"
 # and calculating stacktraces is usually expensive.
 config :phoenix, :stacktrace_depth, 20
 
-# Configure your database
-config :oauth2_example, OAuth2Example.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "oauth2_example_dev",
-  hostname: "localhost",
-  pool_size: 10
 
 config :oauth2_example, GitHub,
   client_id: System.get_env("GITHUB_CLIENT_ID"),

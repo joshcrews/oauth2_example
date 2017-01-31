@@ -1,5 +1,7 @@
 # OAuth2/Phoenix Example Application
 
+Fork of github.com/scrogson/oauth2_example that removes Ecto/Repo/Database from this app
+
 > This is an example application showing how one can integrate with the
 > [OAuth2](https://github.com/scrogson/oauth2) library and
 > the [Phoenix](https://github.com/phoenixframework/phoenix) framework.
